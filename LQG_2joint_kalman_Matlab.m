@@ -32,6 +32,7 @@ for Lo = 15%[0 -13 13] % load variable
         0 0;
         tau^-1 lambda/tau;
         lambda/tau tau^-1];
+        
     
     ns = size(A,1); % Dimension of the state
     nc = size(B,2); % Dimension of the control
